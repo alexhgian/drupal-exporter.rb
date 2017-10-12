@@ -5,3 +5,4 @@ services:
     volumes:
       - .:/usr/src/app
     command: drupal-exporter --config-file settings.yml --extract-to-json
+    
