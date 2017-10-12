@@ -1,0 +1,7 @@
+version: '2'
+services:
+  drupal:
+    image: alexgian/drupal-exporter
+    volumes:
+      - .:/usr/src/app
+    command: drupal-exporter --config-file settings.yml --extract-to-json
