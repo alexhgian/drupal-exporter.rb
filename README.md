@@ -57,7 +57,7 @@ This will install the `drupal-exporter` executable.
        ```bash
         curl -X GET \
              -H 'Authorization: Bearer ACCESS_TOKEN' \
-             'https://api.contentful.com/spaces/SPACE_ID/content_types' > contentful_model.json
+             'https://cdn.contentful.com/spaces/SPACE_ID/content_types' > contentful_model.json
        ```
 
        It will create `contentful_model.json` file, which you need to transform into the `contentful_structure.json` using:
